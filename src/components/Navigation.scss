@@ -1,0 +1,28 @@
+.navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    padding: 10px 0;
+  }
+  
+  button {
+    flex: 1;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+    
+
+    img {
+        width:20vw;
+    }
+
+    &:hover {
+      background: #858383;
+    }
+  }

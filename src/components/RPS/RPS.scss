@@ -1,0 +1,34 @@
+.rps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .choices {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+  }
+  
+  button {
+    font-size: 2rem;
+    padding: 10px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    transition: 0.3s;
+  
+    &:hover {
+      background: #ddd;
+    }
+  }
+  
+  .result {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 10px;
+
+  }

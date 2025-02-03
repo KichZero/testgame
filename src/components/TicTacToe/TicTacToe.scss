@@ -1,0 +1,20 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90vw;
+    max-width: 300px;
+    gap: 5px;
+  }
+  
+  .square {
+    width: 100%;
+    aspect-ratio: 1;
+    font-size: 2rem;
+    font-weight: bold;
+    background: #eee;
+    border: 2px solid #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
